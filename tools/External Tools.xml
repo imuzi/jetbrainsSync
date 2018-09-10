@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="compilejs" description="curl http://localhost:7456/update-db" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="curl" />
+      <option name="PARAMETERS" value="http://localhost:7456/update-db" />
+      <option name="WORKING_DIRECTORY" value="$Projectpath$" />
+    </exec>
+  </tool>
+</toolSet>
